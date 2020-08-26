@@ -1,0 +1,27 @@
+{
+  "name": "rf-blocks-library",
+  "version": "1.0.0",
+  "description": "A collection of Gutenberg blocks",
+  "main": "build/blocks.build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Russell Forster",
+  "license": "GPL-2.0-only",
+  "devDependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
+    "@wordpress/babel-preset-default": "^4.17.0",
+    "@wordpress/scripts": "12.1.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "jsdom": "^16.4.0",
+    "loadjs": "^4.2.0",
+    "react-accessible-accordion": "^3.3.3",
+    "react-native-xml2js": "^1.0.3",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  }
+}

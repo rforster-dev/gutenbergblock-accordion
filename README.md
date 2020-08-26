@@ -1,2 +1,2 @@
 # gutenbergblock-accordion
-An accordion block for Gutenberg editor
+An accessiblie accordion block for Gutenberg editor.
